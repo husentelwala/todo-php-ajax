@@ -1,0 +1,47 @@
+@charset "utf-8";
+/**********************************/
+/* DEFUALT CSS CODE               */
+/**********************************/
+html { background:#f1f1f1; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
+ height:100%; min-height:100%; }
+body { font-size:100%; font-family: 'Open Sans', sans-serif; font-weight:400; padding:0px; overflow-x:hidden; width:100%;}
+a { text-decoration: none;  }
+a,a img { border: none;    outline: none; }
+a:active, a:selected, a:visited { 	border: none;    outline: none; } 
+input { font-family: 'Open Sans', sans-serif; font-weight:400; -webkit-appearance: none; border:0px none; box-shadow:none; -webkit-box-shadow:none }
+textarea:focus, input:focus{ outline: 0; }
+*,ul,li { margin:0px; padding:0px; }
+li { list-style:none; }
+.clearfix { clear:both; overflow:hidden; }
+.pos-rel { position:relative; }
+pos-abs { position:absolute; }
+.overflow-cls { overflow:hidden; }
+h1,h2,h3,h4,h5,h6 { line-height:auto; font-weight:300; }
+/* Common Margins ****************/
+.margin-top-10 { margin-top:10px; }
+.margin-top-15 { margin-top:15px; }
+.margin-top-20 { margin-top:20px; }
+.margin-top-25 { margin-top:25px; }
+.margin-top-30 { margin-top:30px; }
+img { max-width:100%; }
+.text-right { text-align:right; }
+.f-left { float:left; }
+.align-right,.f-right { float:right; }
+.row:before, .row:after { content: ""; display: table; ine-height: 0; }
+.row:after { clear: both; }
+.row{ width: 100%; }
+/**********DEFAULT CSS ENDS HERE *************/
+
+.main-c { width:540px; margin:0px auto; }
+.main-input { margin-top:10px; width:540px; height:30px; border: 1px solid #CCC; padding:0px 10px; box-sizing:border-box }
+.content { margin-top:20px; padding:4px 20px 40px; border:1px solid #CCC; width:500px; position:relative; background:#FFF } 
+li { padding:10px 0px; list-style:none; font-family:Arial, Helvetica, sans-serif; font-size:14px; border-bottom:1px solid #CCC; }
+li.completed { text-decoration:line-through; }
+input[type="checkbox"] { margin-right:10px; }
+.bottom-bar { margin:0px auto; padding:6px 6px; position:absolute; bottom:4px; width:99%; left:0px; right:0px; background:#f2f2f2; box-sizing:border-box }
+.bottom-bar p { color:#454545; width:50%; float:left;  }
+.bottom-bar p.total-done { text-align:right; color:#0B5B13; }
+.bottom-bar p.total-done span { color:#333; cursor:pointer; font-size:14px; }
+.bottom-bar p.total-done span:hover { color:#001B68;  }
+
+.custom-loader { background: url(../images/load.gif) no-repeat center center; }
